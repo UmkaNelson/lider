@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЛИДЕР | Финансовые решения</title>
+  <meta name="description" content="Специализированное финансовое общество ЛИДЕР — надежный проводник в мир финансового успеха." />
+  <link rel="icon" type="image/png" href="images/logo-fav.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="images/logo-main.png">
+  <link rel="preload" as="image" href="images/logo-fav.png">
+  <link rel="preload" as="image" href="images/pc1.png">
+  <link rel="preload" as="image" href="images/pc2.png">
+  <link rel="preload" as="image" href="images/pc3.png">
+  <link rel="preload" as="image" href="images/pc4.png">
+  <link rel="preload" as="image" href="images/pc6.png">
+  <link rel="preload" as="image" href="images/slider/slide1.png">
+  <link rel="preload" as="image" href="images/slider/slide2.png">
+  <link rel="preload" as="image" href="images/slider/slide3.png">
+  <link rel="preload" as="image" href="images/slider/slide4.png">
+  <link rel="preload" as="image" href="images/slider/slide5.png">
+  <link rel="preload" as="image" href="images/slider/slide11.png">
+  <link rel="preload" as="image" href="images/slider/slide12.png">
+  <link rel="preload" as="image" href="images/slider/slide13.png">
+  <link rel="preload" as="image" href="images/slider/slide14.png">
+  <link rel="preload" as="image" href="images/slider/slide15.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="top"></div>
+  <a class="skip-link" href="#services">Пропустить к основному содержимому</a>
+  <header class="top-bar">
+    <a class="brand" href="#top">
+      <img src="images/logo-main.png" alt="Логотип ЛИДЕР" width="128" height="128" />
+    </a>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav-links" class="nav-links" aria-label="Основная навигация">
+      <a href="#services">Услуги</a>
+      <a href="#about">О нас</a>
+      <a href="#info">Информация</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="services" class="section services" aria-label="Слайдер услуг">
+      
+      <div class="slider" role="region" aria-roledescription="слайдер" aria-label="Ключевые услуги">
+        <div class="slides">
+          <article class="slide active" data-index="0" aria-hidden="false" id="slide-1">
+            <picture>
+              <source srcset="images/slider/slide11.png" media="(max-width: 768px)">
+              <img src="images/slider/slide1.png" alt="Финансовые решения с акцентом на технологичность" loading="eager">
+            </picture>
+          </article>
+          <article class="slide" data-index="1" aria-hidden="true" id="slide-2">
+            <picture>
+              <source srcset="images/slider/slide12.png" media="(max-width: 768px)">
+              <img src="images/slider/slide2.png" alt="Экспертная команда консультантов" loading="eager">
+            </picture>
+          </article>
+          <article class="slide" data-index="2" aria-hidden="true" id="slide-3">
+            <picture>
+              <source srcset="images/slider/slide13.png" media="(max-width: 768px)">
+              <img src="images/slider/slide3.png" alt="Надежные партнёрства и контроль качества" loading="eager">
+            </picture>
+          </article>
+          <article class="slide" data-index="3" aria-hidden="true" id="slide-4">
+            <picture>
+              <source srcset="images/slider/slide14.png" media="(max-width: 768px)">
+              <img src="images/slider/slide4.png" alt="Технологичные цифровые платформы" loading="lazy">
+            </picture>
+          </article>
+          <article class="slide" data-index="4" aria-hidden="true" id="slide-5">
+            <picture>
+              <source srcset="images/slider/slide15.png" media="(max-width: 768px)">
+              <img src="images/slider/slide5.png" alt="Команда аналитиков работает с данными" loading="lazy">
+            </picture>
+          </article>
+        </div>
+        <div class="slider__controls" aria-label="Управление слайдером">
+          <button class="slider__btn prev" type="button" aria-label="Предыдущий слайд">&#8592;</button>
+          <button class="slider__btn next" type="button" aria-label="Следующий слайд">&#8594;</button>
+        </div>
+        <div class="slider__dots" role="tablist" aria-label="Переход к слайду">
+          <button type="button" class="dot active" data-index="0" role="tab" aria-selected="true" aria-controls="slide-1"></button>
+          <button type="button" class="dot" data-index="1" role="tab" aria-selected="false" aria-controls="slide-2"></button>
+          <button type="button" class="dot" data-index="2" role="tab" aria-selected="false" aria-controls="slide-3"></button>
+          <button type="button" class="dot" data-index="3" role="tab" aria-selected="false" aria-controls="slide-4"></button>
+          <button type="button" class="dot" data-index="4" role="tab" aria-selected="false" aria-controls="slide-5"></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section__header">
+        <h1>ЛИДЕР</h1>
+        <h2>надёжный проводник в мир финансового успеха</h2>
+      </div>
+
+      <div class="card-grid reveal" aria-label="Мы предлагаем">
+        <div class="grid__header">
+          <p class="eyebrow">Мы предлагаем</p>
+        </div>
+        <div class="cards two-col">
+          <article class="card">
+            <h4>УНИКАЛЬНЫЕ ФИНАНСОВЫЕ РЕШЕНИЯ</h4>
+            <img src="images/pc1.png" alt="Уникальные финансовые решения" loading="lazy">
+          </article>
+          <article class="card">
+            <h4>ПРОФЕССИОНАЛЬНОЕ КОНСУЛЬТИРОВАНИЕ</h4>
+            <img src="images/pc2.png" alt="Профессиональное консультирование" loading="lazy">
+          </article>
+        </div>
+      </div>
+
+      <div class="card-grid reveal reliability-grid" aria-label="Гарантия надёжности">
+        <div class="grid__header">
+          <p class="eyebrow">Гарантия надёжности</p>
+          <h3>Специализированное финансовое общество ЛИДЕР</h3>
+          <h3>находится под управлением компании НАНОТЕК, а это:</h3>
+        </div>
+        <div class="cards two-col">
+          <article class="card">
+            <h4>ПРОФЕССИОНАЛЬНЫЙ ОПЫТ</h4>
+            <img src="images/pc4.png" alt="Профессиональный опыт" loading="lazy">
+            <p>Управляющая компания НАНОТЕК на рынке финансовых услуг более 15 лет.</p>
+          </article>
+          <article class="card">
+            <h4>ПРОВЕРЕНО РЕГУЛЯТОРОМ</h4>
+            <img src="images/pc3.png" alt="Проверено регулятором" loading="lazy">
+            <p>Управляющая компания НАНОТЕК в реестре Банка России с 2021 года.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="section info">
+      <div class="section__header">
+        <h2>Правовые основы нашей деятельности</h2>
+      </div>
+      <div class="info__banner">
+        <img src="images/pc6.png" alt="Правовые основания нашей деятельности" loading="lazy">
+      </div>
+      <div class="info__text reveal">
+        <p>Деятельность специализированного финансового общества ЛИДЕР регулируется <a href="https://www.consultant.ru/document/cons_doc_LAW_10148/f062ac253534ba5f06c63c4a8ab791a99fb41d1c/" target="_blank" rel="noopener noreferrer">статьей 15.1 Федерального закона от 22.04.1996 №39-ФЗ</a> «О рынке ценных бумаг» (далее – Федеральный закон №39-ФЗ).</p>
+        <p>Исполнительным органом специализированного финансового общества ЛИДЕР является <a href="https://nanotechfinance.ru" target="_blank" rel="noopener noreferrer">управляющая компания НАНОТЕК</a>, правовые основы деятельности которой установлены <a href="https://www.consultant.ru/document/cons_doc_LAW_10148/bcd9984125ea41cf75c9afbe1d1b9a2285e3341e/" target="_blank" rel="noopener noreferrer">статьей 15.3 Федерального закона №39-ФЗ</a>.</p>
+        <p><a href="https://nanotechfinance.ru" target="_blank" rel="noopener noreferrer">Управляющая компания НАНОТЕК</a> включена в <a href="https://cbr.ru/admissionfinmarket/navigator/ukso/" target="_blank" rel="noopener noreferrer">реестр Центрального Банка России</a> согласно Указанию от 29.06.2022 №6176-У «О порядке включения Банком России организаций в реестр управляющих компаний специализированных обществ и порядке исключения Банком России организаций из указанного реестра» и выполняет функции управляющей компании специализированных обществ с 03.06.2021г.</p>
+      </div>
+    </section>
+
+    <section id="requisites" class="section requisites">
+      <div class="section__header">
+        <h2>Наши реквизиты</h2>
+      </div>
+      <div class="requisites__card reveal">
+        <p>ООО «СФО «Лидер»</p>
+        <p>ОГРН 1257700578288</p>
+        <p>ИНН 9734021667</p>
+        <p>Юридический адрес</p>
+        <p>123182, город Москва, Волоколамское ш, д. 24 к. 1, помещение 467</p>
+      </div>
+    </section>
+
+    <section id="contacts" class="section contacts">
+      <div class="section__header">
+        <h2>Контакты</h2>
+      </div>
+      <div class="contacts__grid">
+        <div class="contacts__info reveal">
+          <p class="eyebrow">Свяжитесь с нами</p>
+          <a class="contact-link" href="tel:+74951234567">Телефон: +7 (495) 123-45-67</a>
+          <div class="contact-block">
+            <h4>Москва</h4>
+            <p>Волоколамское ш, д. 24 к. 1, помещение 467</p>
+            <p>Пн–Пт: 10:00–19:00</p>
+          </div>
+          <div class="contact-block">
+            <h4>Екатеринбург</h4>
+            <p>ул. Примерная, 12, офис 5</p>
+            <p>Пн–Пт: 10:00–19:00</p>
+          </div>
+        </div>
+        <div class="contacts__form-wrapper reveal">
+          <div class="map-embed" aria-label="Карта офиса в Москве">
+            <iframe title="Карта офиса" src="https://yandex.ru/map-widget/v1/?um=constructor%3A9d1e60a7e676f4f3c3b3f9f13c4c3270a39fe84a8292ba1f2b71f6ce0f7754f8&amp;source=constructor" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <label for="name">Имя</label>
+              <input id="name" name="name" type="text" required minlength="2" maxlength="60" autocomplete="name" placeholder="Ваше имя">
+            </div>
+            <div class="form-row">
+              <label for="phone">Телефон</label>
+              <input id="phone" name="phone" type="tel" required placeholder="+7 (___) ___-__-__" autocomplete="tel" inputmode="tel">
+            </div>
+            <div class="form-row">
+              <label for="message">Обращение</label>
+              <textarea id="message" name="message" rows="4" required minlength="10" maxlength="500" placeholder="Опишите ваш запрос"></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Отправить</button>
+            <p class="policy">Нажимая кнопку, вы соглашаетесь с <a href="#" id="open-policy">обработкой персональных данных</a>.</p>
+            <div id="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="policy-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Политика обработки данных">
+    <div class="modal__content">
+      <button class="modal__close" type="button" aria-label="Закрыть">×</button>
+      <h3>Политика обработки персональных данных</h3>
+      <p>Мы обрабатываем ваши данные исключительно для обратной связи и улучшения качества сервиса. Передача третьим лицам исключена, за исключением случаев, предусмотренных законодательством РФ. Отправляя форму, вы соглашаетесь на сбор, хранение и использование предоставленных данных.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="footer__brand">
+        <img src="images/logo-main.png" alt="Логотип ЛИДЕР" width="128" height="128">
+      </div>
+      <nav class="footer__nav" aria-label="Навигация в футере">
+        <a href="#services">Услуги</a>
+        <a href="#about">О нас</a>
+        <a href="#info">Информация</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="footer__contacts">
+        <p>Тел.: <a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+        <p>Email: <a href="mailto:info@leader.ru">info@leader.ru</a></p>
+        <p>123182, Москва, Волоколамское ш., д. 24 к. 1, пом. 467</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">
+        <span class="footer__copy-main">© 2026 СФО «ЛИДЕР».</span>
+        <span class="footer__copy-rights">Все права защищены.</span>
+      </p>
+      <a href="#top" class="footer__to-top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
